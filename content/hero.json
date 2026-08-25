@@ -1,0 +1,18 @@
+{
+  "en": {
+    "badge": "AI-first technology services",
+    "title": "Your AI-first technology & talent partner",
+    "lede": "We give enterprises the IT resources they need to move faster through AI transformation — and we don't stop at building your <span class=\"agent-word\" data-agent=\"claude\">AI applications</span> and <span class=\"agent-word\" data-agent=\"codex\">mini-programs</span>. Our <span class=\"agent-word\" data-agent=\"cursor\">dedicated teams</span> help you navigate a new way of working.",
+    "typelabel": "We build:",
+    "cta1": "Contact us",
+    "cta2": "Explore services"
+  },
+  "zh": {
+    "badge": "AI 优先的技术服务",
+    "title": "您的 AI 优先技术与人才伙伴",
+    "lede": "我们为企业提供 AI 转型所需的技术资源，加速前进——我们不止于构建你的 <span class=\"agent-word\" data-agent=\"claude\">AI 应用</span>与<span class=\"agent-word\" data-agent=\"codex\">小程序</span>，更有<span class=\"agent-word\" data-agent=\"cursor\">专属团队</span>陪你探索全新的工作方式。",
+    "typelabel": "我们构建：",
+    "cta1": "联系我们",
+    "cta2": "查看服务"
+  }
+}

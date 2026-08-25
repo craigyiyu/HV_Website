@@ -1,0 +1,72 @@
+{
+  "en": {
+    "title": "Case studies",
+    "intro": "Real deployments, real numbers.",
+    "f": {
+      "bg": "Background",
+      "did": "What we did",
+      "out": "Outcomes"
+    },
+    "c1": {
+      "title": "AI-powered rostering",
+      "bg": "Manual scheduling for a large workforce was slow and error-prone — constantly fighting labor regulations and rarely reflecting what employees actually wanted.",
+      "did": "We built an AI rostering system that automatically balances employee preferences with labor regulations, producing compliant schedules in minutes.",
+      "out": "Manual scheduling workload cut by <strong class=\"metric\">80–90%</strong>, with better fairness and compliance.",
+      "o1": "Compliant with labor regulations",
+      "o2": "Employee preferences honored"
+    },
+    "c2": {
+      "title": "Conversational booking & customer service",
+      "bg": "Customer service teams worked across scattered systems, re-entering booking details by hand — limiting how much they could handle and slowing sales.",
+      "did": "We unified the systems and used AI to extract booking details directly from customer conversations, completing reservations in real time.",
+      "out": "Less headcount needed, far higher service capacity, faster responses — and higher sales.",
+      "o1": "Bookings completed inside the conversation",
+      "o2": "Higher service capacity with less headcount",
+      "o3": "Faster responses, higher sales"
+    },
+    "c3": {
+      "title": "AI-assisted design optimization",
+      "bg": "Pharmaceutical and semiconductor facilities need clean-room layouts — precise, compliant, and expensive to produce by hand.",
+      "did": "We built an AI-assisted design tool that generates optimized clean-room layouts quickly.",
+      "out": "Lower design cost and compressed timelines, without compromising compliance.",
+      "o1": "Clean rooms for pharma & semiconductor",
+      "o2": "AI-generated optimized layouts",
+      "o3": "Lower cost, faster delivery"
+    }
+  },
+  "zh": {
+    "title": "成功案例",
+    "intro": "真实落地，真实数字。",
+    "f": {
+      "bg": "背景",
+      "did": "我们做了什么",
+      "out": "成果"
+    },
+    "c1": {
+      "title": "AI 智能排班",
+      "bg": "为大规模员工手动排班既慢又容易出错——既要不断满足劳动法规，又很难照顾员工的实际诉求。",
+      "did": "我们构建了一套 AI 排班系统，自动平衡员工诉求与劳动法规，几分钟内生成合规排班表。",
+      "out": "人工排班工作量降低 <strong class=\"metric\">80–90%</strong>，公平性与合规性同步提升。",
+      "o1": "符合劳动法规",
+      "o2": "兼顾员工诉求"
+    },
+    "c2": {
+      "title": "对话式预订与客服",
+      "bg": "客服团队在多个割裂的系统中工作，预订信息需要手动重复录入——承接能力受限，销售也因此变慢。",
+      "did": "我们整合了所有系统，用 AI 直接从客服对话中提炼预订信息，实时完成预订。",
+      "out": "更少的人力投入、更高的承接能力、更快的响应——以及更高的销量。",
+      "o1": "在对话内直接完成预订",
+      "o2": "更少人力，更高承接能力",
+      "o3": "响应更快，销量更高"
+    },
+    "c3": {
+      "title": "AI 辅助设计优化",
+      "bg": "药企与半导体行业需要洁净室（Clean Room）设计——精确、合规，而手工制作既慢又贵。",
+      "did": "我们打造了一款 AI 辅助设计工具，快速生成优化的洁净室排版方案。",
+      "out": "更低的成本、更短的周期，同时不牺牲合规性。",
+      "o1": "药企与半导体的洁净室设计",
+      "o2": "AI 生成优化排版",
+      "o3": "更低的成本，更快的交付"
+    }
+  }
+}

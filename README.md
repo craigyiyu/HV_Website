@@ -8,10 +8,37 @@
 hypervelocity-site/
 ├── index.html      # 页面结构（六大板块 + data-i18n 双语标注）
 ├── styles.css      # 深色主题 + classy.md 蓝主色 + AI 协作者光标样式
-├── script.js       # 中英双语切换 + 类型机打字 + AI 光标 + 表单（全部原生 JS）
-├── favicon.svg     # 站点图标
+├── script.js       # 中英双语切换 + 类型机打字 + AI 光标（全部原生 JS）
+├── content/        # 可编辑内容（中英分离，Pages CMS 编辑的就是这些文件）
+│   ├── site.json   #   站点信息：标题/SEO/导航/打字机词表
+│   ├── hero.json   #   首屏
+│   ├── services.json   # 服务与交付模式
+│   ├── industries.json # 行业
+│   ├── cases.json  #   成功案例
+│   ├── about.json  #   关于我们
+│   ├── contact.json    # 联系
+│   └── footer.json #   页脚
+├── .pages.yml      # Pages CMS 配置（定义可编辑字段）
+├── tools/export-content.js  # 从 script.js 重新导出 content/*.json 的维护脚本
+├── logo.png        # 图形标
+├── wordmark.png    # 字标
+├── favicon.png / favicon.ico  # Tab 图标
+├── og.png          # 分享图
 └── README.md       # 本文件
 ```
+
+## 内容编辑（Pages CMS）
+
+网站文案已抽到 `content/*.json`（中英分离），站点加载时会自动读取这些文件渲染（内置词典兜底，离线也能显示）。
+
+**编辑方式（免费托管版）**：
+1. 打开 **https://app.pagescms.org**
+2. 用 GitHub 账号登录（授权 Pages CMS 访问 `HV_Website` 仓库）
+3. 选择仓库 → 左侧出现 8 个板块（站点信息 / 首屏 / 服务 / 行业 / 案例 / 关于 / 联系 / 页脚）
+4. 每个板块内是 **English / 中文** 两组表单，改完点保存，自动提交到 GitHub
+5. 网站部署端拉取最新代码即可生效（或配置自动部署）
+
+> 说明：`.pages.yml` 定义了可编辑字段；含 AI 高亮标签的字段（首屏 lede、关于 philosophy）支持粘贴 HTML 高亮标记。类型机词表在"站点信息 → typing"里编辑。
 
 ## 本地预览
 

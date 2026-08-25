@@ -1,0 +1,676 @@
+# Pages CMS configuration for the HyperVelocity website
+# See https://pagescms.org/docs/configuration for details.
+# Content lives in content/*.json; each file has en/zh sections.
+
+content:
+  # ---------- Site basics ----------
+  - name: site
+    label: Site / 站点信息
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: en
+        label: English
+        type: object
+        fields:
+          - name: title
+            type: string
+            description: Browser tab title
+          - name: meta.desc
+            type: text
+            description: SEO description
+          - name: lang.toggle
+            type: string
+            description: Text of the language switch button (shows the OTHER language)
+          - name: nav
+            type: object
+            label: Navigation menu
+            fields:
+              - name: services
+                type: string
+              - name: industries
+                type: string
+              - name: cases
+                type: string
+              - name: about
+                type: string
+              - name: contact
+                type: string
+              - name: cta
+                type: string
+                description: Header button text
+          - name: typing
+            type: object
+            label: Typewriter words
+            fields:
+              - name: words
+                type: string
+                list: true
+                description: 'Words that cycle in the "We build:" typewriter'
+      - name: zh
+        label: 中文
+        type: object
+        fields:
+          - name: title
+            type: string
+            description: 浏览器标签页标题
+          - name: meta.desc
+            type: text
+            description: SEO 描述
+          - name: lang.toggle
+            type: string
+            description: 语言切换按钮文字（显示另一种语言）
+          - name: nav
+            type: object
+            label: 导航菜单
+            fields:
+              - name: services
+                type: string
+              - name: industries
+                type: string
+              - name: cases
+                type: string
+              - name: about
+                type: string
+              - name: contact
+                type: string
+              - name: cta
+                type: string
+                description: 右上角按钮文字
+          - name: typing
+            type: object
+            label: 打字机词表
+            fields:
+              - name: words
+                type: string
+                list: true
+                description: '"We build:" 打字机循环的词'
+
+  # ---------- Hero ----------
+  - name: hero
+    label: Hero / 首屏
+    type: file
+    path: content/hero.json
+    format: json
+    fields:
+      - name: en
+        label: English
+        type: object
+        fields:
+          - name: badge
+            type: string
+            description: Small line above the headline (e.g. ~/HyperVelocity)
+          - name: title
+            type: string
+            description: Main headline
+          - name: lede
+            type: text
+            description: Intro paragraph. Words wrapped in span.agent-word get highlighted with AI agent carets
+          - name: typelabel
+            type: string
+            description: 'Label before the typewriter (e.g. "We build:")'
+          - name: cta1
+            type: string
+            description: Primary button (Contact us)
+          - name: cta2
+            type: string
+            description: Secondary button (Explore services)
+      - name: zh
+        label: 中文
+        type: object
+        fields:
+          - name: badge
+            type: string
+            description: 标题上方的小字
+          - name: title
+            type: string
+            description: 主标题
+          - name: lede
+            type: text
+            description: 首屏介绍段。用 span.agent-word 包裹的词会被高亮并带 AI 协作者光标
+          - name: typelabel
+            type: string
+            description: '打字机前的标签（如"我们构建："）'
+          - name: cta1
+            type: string
+            description: 主按钮（联系我们）
+          - name: cta2
+            type: string
+            description: 次按钮（查看服务）
+
+  # ---------- Services ----------
+  - name: services
+    label: Services / 服务
+    type: file
+    path: content/services.json
+    format: json
+    fields:
+      - name: en
+        label: English
+        type: object
+        fields:
+          - name: title
+            type: string
+          - name: intro
+            type: text
+          - name: mode.more
+            type: string
+            description: Hint below the two delivery-mode cards
+          - name: mode1
+            type: object
+            label: Project-based
+            fields:
+              - name: title
+                type: string
+              - name: summary
+                type: text
+              - name: detail
+                type: text
+              - name: b1
+                type: string
+              - name: b2
+                type: string
+              - name: b3
+                type: string
+          - name: mode2
+            type: object
+            label: ODC
+            fields:
+              - name: title
+                type: string
+              - name: summary
+                type: text
+              - name: detail
+                type: text
+              - name: b1
+                type: string
+              - name: b2
+                type: string
+              - name: b3
+                type: string
+          - name: lines
+            type: object
+            fields:
+              - name: title
+                type: string
+                description: '"Service lines" section heading'
+          - name: s1
+            type: object
+            label: AI Application Development (flagship)
+            fields:
+              - name: title
+                type: string
+              - name: body
+                type: text
+          - name: s2
+            type: object
+            label: WeChat Mini-Programs
+            fields:
+              - name: title
+                type: string
+              - name: body
+                type: text
+          - name: s3
+            type: object
+            label: Mobile Apps
+            fields:
+              - name: title
+                type: string
+              - name: body
+                type: text
+          - name: s4
+            type: object
+            label: Website Content Operations
+            fields:
+              - name: title
+                type: string
+              - name: body
+                type: text
+          - name: s5
+            type: object
+            label: SMS Services
+            fields:
+              - name: title
+                type: string
+              - name: body
+                type: text
+      - name: zh
+        label: 中文
+        type: object
+        fields:
+          - name: title
+            type: string
+          - name: intro
+            type: text
+          - name: mode.more
+            type: string
+            description: 两张交付模式卡片下方的提示
+          - name: mode1
+            type: object
+            label: 项目制
+            fields:
+              - name: title
+                type: string
+              - name: summary
+                type: text
+              - name: detail
+                type: text
+              - name: b1
+                type: string
+              - name: b2
+                type: string
+              - name: b3
+                type: string
+          - name: mode2
+            type: object
+            label: ODC
+            fields:
+              - name: title
+                type: string
+              - name: summary
+                type: text
+              - name: detail
+                type: text
+              - name: b1
+                type: string
+              - name: b2
+                type: string
+              - name: b3
+                type: string
+          - name: lines
+            type: object
+            fields:
+              - name: title
+                type: string
+                description: '"服务线"小标题'
+          - name: s1
+            type: object
+            label: AI 应用开发（旗舰）
+            fields:
+              - name: title
+                type: string
+              - name: body
+                type: text
+          - name: s2
+            type: object
+            label: 微信小程序开发
+            fields:
+              - name: title
+                type: string
+              - name: body
+                type: text
+          - name: s3
+            type: object
+            label: APP 开发
+            fields:
+              - name: title
+                type: string
+              - name: body
+                type: text
+          - name: s4
+            type: object
+            label: 官网内容运营
+            fields:
+              - name: title
+                type: string
+              - name: body
+                type: text
+          - name: s5
+            type: object
+            label: 短信服务
+            fields:
+              - name: title
+                type: string
+              - name: body
+                type: text
+
+  # ---------- Industries ----------
+  - name: industries
+    label: Industries / 行业
+    type: file
+    path: content/industries.json
+    format: json
+    fields:
+      - name: en
+        label: English
+        type: object
+        fields:
+          - name: title
+            type: string
+          - name: intro
+            type: text
+          - name: i1
+            type: object
+            label: Integrated Resorts
+            fields:
+              - name: title
+                type: string
+              - name: b1
+                type: string
+              - name: b2
+                type: string
+              - name: b3
+                type: string
+              - name: b4
+                type: string
+          - name: i2
+            type: object
+            label: Manufacturing
+            fields:
+              - name: title
+                type: string
+              - name: b1
+                type: string
+              - name: b2
+                type: string
+              - name: b3
+                type: string
+          - name: i4
+            type: object
+            label: Healthcare
+            fields:
+              - name: title
+                type: string
+              - name: b1
+                type: string
+              - name: b2
+                type: string
+      - name: zh
+        label: 中文
+        type: object
+        fields:
+          - name: title
+            type: string
+          - name: intro
+            type: text
+          - name: i1
+            type: object
+            label: 综合度假村
+            fields:
+              - name: title
+                type: string
+              - name: b1
+                type: string
+              - name: b2
+                type: string
+              - name: b3
+                type: string
+              - name: b4
+                type: string
+          - name: i2
+            type: object
+            label: 制造业
+            fields:
+              - name: title
+                type: string
+              - name: b1
+                type: string
+              - name: b2
+                type: string
+              - name: b3
+                type: string
+          - name: i4
+            type: object
+            label: 医疗健康
+            fields:
+              - name: title
+                type: string
+              - name: b1
+                type: string
+              - name: b2
+                type: string
+
+  # ---------- Case studies ----------
+  - name: cases
+    label: Case studies / 成功案例
+    type: file
+    path: content/cases.json
+    format: json
+    fields:
+      - name: en
+        label: English
+        type: object
+        fields:
+          - name: title
+            type: string
+          - name: intro
+            type: text
+          - name: f
+            type: object
+            label: Framework labels
+            fields:
+              - name: bg
+                type: string
+              - name: did
+                type: string
+              - name: out
+                type: string
+          - name: c1
+            type: object
+            label: Case 1 - AI-powered rostering
+            fields:
+              - name: title
+                type: string
+              - name: bg
+                type: text
+              - name: did
+                type: text
+              - name: out
+                type: text
+              - name: o1
+                type: string
+              - name: o2
+                type: string
+          - name: c2
+            type: object
+            label: Case 2 - Conversational booking
+            fields:
+              - name: title
+                type: string
+              - name: bg
+                type: text
+              - name: did
+                type: text
+              - name: out
+                type: text
+              - name: o1
+                type: string
+              - name: o2
+                type: string
+              - name: o3
+                type: string
+          - name: c3
+            type: object
+            label: Case 3 - AI-assisted design optimization
+            fields:
+              - name: title
+                type: string
+              - name: bg
+                type: text
+              - name: did
+                type: text
+              - name: out
+                type: text
+              - name: o1
+                type: string
+              - name: o2
+                type: string
+              - name: o3
+                type: string
+      - name: zh
+        label: 中文
+        type: object
+        fields:
+          - name: title
+            type: string
+          - name: intro
+            type: text
+          - name: f
+            type: object
+            label: 框架标签
+            fields:
+              - name: bg
+                type: string
+              - name: did
+                type: string
+              - name: out
+                type: string
+          - name: c1
+            type: object
+            label: 案例 1 - AI 智能排班
+            fields:
+              - name: title
+                type: string
+              - name: bg
+                type: text
+              - name: did
+                type: text
+              - name: out
+                type: text
+              - name: o1
+                type: string
+              - name: o2
+                type: string
+          - name: c2
+            type: object
+            label: 案例 2 - 对话式预订与客服
+            fields:
+              - name: title
+                type: string
+              - name: bg
+                type: text
+              - name: did
+                type: text
+              - name: out
+                type: text
+              - name: o1
+                type: string
+              - name: o2
+                type: string
+              - name: o3
+                type: string
+          - name: c3
+            type: object
+            label: 案例 3 - AI 辅助设计优化
+            fields:
+              - name: title
+                type: string
+              - name: bg
+                type: text
+              - name: did
+                type: text
+              - name: out
+                type: text
+              - name: o1
+                type: string
+              - name: o2
+                type: string
+              - name: o3
+                type: string
+
+  # ---------- About ----------
+  - name: about
+    label: About / 关于我们
+    type: file
+    path: content/about.json
+    format: json
+    fields:
+      - name: en
+        label: English
+        type: object
+        fields:
+          - name: title
+            type: string
+          - name: philosophy
+            type: text
+            description: Intro line. Words wrapped in span.agent-word get AI-agent highlight
+          - name: f1
+            type: object
+            label: Craig Yu (Co-founder & CEO)
+            fields:
+              - name: role
+                type: string
+              - name: bio
+                type: text
+          - name: f3
+            type: object
+            label: Eason Chen (Co-founder & CTO)
+            fields:
+              - name: role
+                type: string
+              - name: bio
+                type: text
+      - name: zh
+        label: 中文
+        type: object
+        fields:
+          - name: title
+            type: string
+          - name: philosophy
+            type: text
+            description: 引导语。用 span.agent-word 包裹的词会有 AI 高亮
+          - name: f1
+            type: object
+            label: Craig Yu（联合创始人 & CEO）
+            fields:
+              - name: role
+                type: string
+              - name: bio
+                type: text
+          - name: f3
+            type: object
+            label: Eason Chen（联合创始人 & CTO）
+            fields:
+              - name: role
+                type: string
+              - name: bio
+                type: text
+
+  # ---------- Contact ----------
+  - name: contact
+    label: Contact / 联系
+    type: file
+    path: content/contact.json
+    format: json
+    fields:
+      - name: en
+        label: English
+        type: object
+        fields:
+          - name: title
+            type: string
+          - name: intro
+            type: text
+      - name: zh
+        label: 中文
+        type: object
+        fields:
+          - name: title
+            type: string
+          - name: intro
+            type: text
+
+  # ---------- Footer ----------
+  - name: footer
+    label: Footer / 页脚
+    type: file
+    path: content/footer.json
+    format: json
+    fields:
+      - name: en
+        label: English
+        type: object
+        fields:
+          - name: rights
+            type: string
+          - name: hiring
+            type: string
+      - name: zh
+        label: 中文
+        type: object
+        fields:
+          - name: rights
+            type: string
+          - name: hiring
+            type: string

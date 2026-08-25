@@ -1,0 +1,26 @@
+{
+  "en": {
+    "title": "About",
+    "philosophy": "<em class=\"agent-word\" data-agent=\"codex\">AI-first</em>: every engagement starts with the question — <em>\"how should AI change this process?\"</em> — then we engineer it.",
+    "f1": {
+      "role": "Co-founder & CEO",
+      "bio": "Previously built ColourData with the founding team — a technology company successfully acquired by a Korean enterprise."
+    },
+    "f3": {
+      "role": "Co-founder & CTO",
+      "bio": "Deep expertise in massive-scale data and Hadoop-based distributed systems — building solutions from the technology side."
+    }
+  },
+  "zh": {
+    "title": "关于我们",
+    "philosophy": "<em class=\"agent-word\" data-agent=\"codex\">AI 优先</em>：每一个项目都从同一个问题开始——\"AI 应该如何改变这个流程？\"——然后我们把它落地。",
+    "f1": {
+      "role": "联合创始人 & CEO",
+      "bio": "与创始团队共同创立 ColourData——一家被韩国企业成功收购的技术公司。"
+    },
+    "f3": {
+      "role": "联合创始人 & CTO",
+      "bio": "深耕海量数据与 Hadoop 分布式系统——从技术视角为企业构建解决方案。"
+    }
+  }
+}

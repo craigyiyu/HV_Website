@@ -443,8 +443,56 @@
     });
   }
 
+  /* ---------- content loading (editable via Pages CMS) ---------- */
+
+  var CONTENT_FILES = [
+    { file: "content/site.json", prefix: "" },
+    { file: "content/hero.json", prefix: "hero." },
+    { file: "content/services.json", prefix: "services." },
+    { file: "content/industries.json", prefix: "industries." },
+    { file: "content/cases.json", prefix: "cases." },
+    { file: "content/about.json", prefix: "about." },
+    { file: "content/contact.json", prefix: "contact." },
+    { file: "content/footer.json", prefix: "footer." }
+  ];
+
+  function flattenContent(obj, prefix) {
+    var out = {};
+    Object.keys(obj).forEach(function (k) {
+      var v = obj[k];
+      if (v && typeof v === "object" && !Array.isArray(v)) {
+        Object.assign(out, flattenContent(v, prefix + k + "."));
+      } else {
+        out[prefix + k] = v;
+      }
+    });
+    return out;
+  }
+
+  function loadContent() {
+    Promise.all(CONTENT_FILES.map(function (cfg) {
+      return fetch(cfg.file)
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .catch(function () { return null; });
+    })).then(function (results) {
+      var loaded = false;
+      CONTENT_FILES.forEach(function (cfg, i) {
+        var data = results[i];
+        if (!data) return;
+        ["en", "zh"].forEach(function (lang) {
+          if (data[lang]) {
+            Object.assign(I18N[lang], flattenContent(data[lang], cfg.prefix));
+            loaded = true;
+          }
+        });
+      });
+      if (loaded) applyLanguage(currentLang);
+    });
+  }
+
   /* ---------- boot ---------- */
 
   applyLanguage(currentLang);
   initModeCards();
+  loadContent();
 })();

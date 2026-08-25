@@ -1,0 +1,94 @@
+{
+  "en": {
+    "title": "Services",
+    "intro": "Two delivery models, one AI-first team.",
+    "mode1": {
+      "title": "Project-based",
+      "summary": "A complete project team — design, product, engineering, QA — scaled to your project.",
+      "detail": "We assemble a full project team for you — from designer to product manager, front-end and back-end engineers, and QA — and scale it according to your project's needs and timeline so every milestone gets met. You get a clear development roadmap, backed by a team that supports you end to end, including technology solutioning.",
+      "b1": "Full project team: design, PM, engineering & QA",
+      "b2": "Team scales with project needs & timeline",
+      "b3": "Clear roadmap, technical solutioning included"
+    },
+    "mode2": {
+      "title": "ODC — Offshore Development Center",
+      "summary": "A dedicated remote team that works like your own — without the HR overhead.",
+      "detail": "We staff it with proven talent and recruit as your needs grow. You don't handle any complex HR management — we do. You join the daily stand-ups and use your own task management system, and the team works alongside yours like your employees. It's scalable by design: if people change, we backfill. Stability and quality assurance are guaranteed — with clear, well-written documentation as a standing requirement.",
+      "b1": "Scalable — backfill whenever people change",
+      "b2": "Stability & QA guaranteed",
+      "b3": "Clear documentation, always"
+    },
+    "mode": {
+      "more": "Click either delivery model — both expand together."
+    },
+    "lines": {
+      "title": "Service lines"
+    },
+    "s1": {
+      "title": "AI Application Development",
+      "body": "Our flagship line. We take AI from idea to production inside your real business processes — rostering, customer service, booking, engineering optimization. Every delivery includes design, product management, architecture, and QA, and we work in both Chinese and international markets."
+    },
+    "s2": {
+      "title": "WeChat Mini-Programs",
+      "body": "Built for the China market: reach WeChat's ecosystem, from design to launch."
+    },
+    "s3": {
+      "title": "Mobile Apps",
+      "body": "iOS & Android applications, engineered with an AI-first workflow."
+    },
+    "s4": {
+      "title": "Website Content Operations",
+      "body": "Content operations for your official website — in Chinese and English — run by an AI-assisted team."
+    },
+    "s5": {
+      "title": "SMS Services",
+      "body": "Overseas companies can't send messages to their clients in China. We handle local SMS delivery — and we have solutions for global customers too: verification codes, alerts, and campaign services."
+    }
+  },
+  "zh": {
+    "title": "服务",
+    "intro": "两种交付模式，一支 AI 优先的团队。",
+    "mode1": {
+      "title": "项目制",
+      "summary": "一支完整的项目团队——设计、产品、研发、测试——按你的项目配置。",
+      "detail": "我们会为客户组建一支完整的项目团队——从设计师、产品经理，到前端、后端工程师与测试——并根据项目需求与时间规划动态调整团队规模，确保每一个里程碑如期达成。客户拥有清晰的发展路径，背后是一支全流程支持的团队，连技术解决方案我们也会一并提供。",
+      "b1": "完整项目团队：设计 / 产品 / 前后端 / 测试",
+      "b2": "团队按项目需求与工期弹性配置",
+      "b3": "清晰的路线图，含技术方案支持"
+    },
+    "mode2": {
+      "title": "ODC — 离岸开发中心",
+      "summary": "一支专属远程团队，像你自己的团队一样工作——无需人力管理负担。",
+      "detail": "我们用现成人才组建团队，需要时帮你招聘补位。客户不需要任何复杂的人力管理——这些都由我们完成。你可以参加每日站会、使用你自己的任务管理系统，团队就像你的员工一样与你协作。按需弹性伸缩：人员变动时我们及时补上。稳定性与质量保障有承诺——文档始终清晰规范，这是我们的硬性要求。",
+      "b1": "弹性伸缩——人员变动即补位",
+      "b2": "稳定性与质量保障",
+      "b3": "文档始终清晰规范"
+    },
+    "mode": {
+      "more": "点击任一交付模式，两侧会一起展开。"
+    },
+    "lines": {
+      "title": "服务线"
+    },
+    "s1": {
+      "title": "AI 应用开发",
+      "body": "我们的旗舰服务线。我们把 AI 从想法带到生产，嵌入你真实的业务流程——排班、客服、预订、工程优化。每次交付都包含设计、产品管理、架构与测试，覆盖中国市场与国际市场。"
+    },
+    "s2": {
+      "title": "微信小程序开发",
+      "body": "面向中国市场：从设计到上线，触达微信生态。"
+    },
+    "s3": {
+      "title": "APP 开发",
+      "body": "iOS 与 Android 应用，以 AI 优先的工作流交付。"
+    },
+    "s4": {
+      "title": "官网内容运营",
+      "body": "中英文官网的内容运营，由 AI 辅助团队执行。"
+    },
+    "s5": {
+      "title": "短信服务",
+      "body": "海外公司无法向在中国的客户发送短信。我们负责本地短信送达——同时也提供面向全球客户的方案：验证码、提醒通知与营销活动服务。"
+    }
+  }
+}

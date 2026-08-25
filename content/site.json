@@ -1,0 +1,56 @@
+{
+  "en": {
+    "title": "HyperVelocity — Your AI-first technology & talent partner",
+    "meta": {
+      "desc": "HyperVelocity helps enterprises scale IT capacity and accelerate AI transformation — AI applications, WeChat mini-programs, apps, and dedicated teams, delivered project-based or as an offshore development center (ODC)."
+    },
+    "lang": {
+      "toggle": "中文"
+    },
+    "nav": {
+      "services": "Services",
+      "industries": "Industries",
+      "cases": "Cases",
+      "about": "About",
+      "contact": "Contact",
+      "cta": "Contact us"
+    },
+    "typing": {
+      "words": [
+        "AI rostering",
+        "intelligent booking",
+        "engineering optimization",
+        "mini-programs & apps",
+        "SMS infrastructure",
+        "content operations"
+      ]
+    }
+  },
+  "zh": {
+    "title": "HyperVelocity — 您的 AI 优先技术与人才伙伴",
+    "meta": {
+      "desc": "HyperVelocity 帮助企业扩充 IT 人力与技术资源、加速 AI 转型——提供 AI 应用、微信小程序、APP 与专属团队，支持项目制或离岸开发中心（ODC）两种交付模式。"
+    },
+    "lang": {
+      "toggle": "EN"
+    },
+    "nav": {
+      "services": "服务",
+      "industries": "行业",
+      "cases": "案例",
+      "about": "关于我们",
+      "contact": "联系我们",
+      "cta": "联系我们"
+    },
+    "typing": {
+      "words": [
+        "AI 智能排班",
+        "智能预订系统",
+        "工程优化",
+        "小程序与 APP",
+        "短信基础设施",
+        "内容运营"
+      ]
+    }
+  }
+}

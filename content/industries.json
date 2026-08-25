@@ -1,0 +1,46 @@
+{
+  "en": {
+    "title": "Industries",
+    "intro": "Where AI meets real operations.",
+    "i1": {
+      "title": "Integrated Resorts",
+      "b1": "Membership",
+      "b2": "Operation",
+      "b3": "Booking",
+      "b4": "Internal Process"
+    },
+    "i2": {
+      "title": "Manufacturing",
+      "b1": "AI-assisted process",
+      "b2": "High accuracy",
+      "b3": "Less time, lower cost"
+    },
+    "i4": {
+      "title": "Healthcare",
+      "b1": "AI Imaging",
+      "b2": "Medical Tourism"
+    }
+  },
+  "zh": {
+    "title": "行业",
+    "intro": "AI 与真实运营交汇之处。",
+    "i1": {
+      "title": "综合度假村",
+      "b1": "会员体系",
+      "b2": "运营",
+      "b3": "预订",
+      "b4": "内部流程"
+    },
+    "i2": {
+      "title": "制造业",
+      "b1": "AI 辅助流程",
+      "b2": "高准确率",
+      "b3": "更省时间、更低成本"
+    },
+    "i4": {
+      "title": "医疗健康",
+      "b1": "AI 影像",
+      "b2": "医疗旅游"
+    }
+  }
+}
