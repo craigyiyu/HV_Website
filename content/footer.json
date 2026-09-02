@@ -1,10 +1,16 @@
 {
   "en": {
     "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "legal": "Legal",
+    "contact": "Get in touch",
     "hiring": "We're hiring AI-first engineers — say hello."
   },
   "zh": {
     "rights": "保留所有权利。",
+    "privacy": "隐私政策",
+    "legal": "法律信息",
+    "contact": "联系",
     "hiring": "我们正在招聘 AI 优先的工程师——欢迎联系。"
   }
 }

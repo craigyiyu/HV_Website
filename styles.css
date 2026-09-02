@@ -625,6 +625,18 @@ body {
 
 .contact-email { margin: 8px 0 24px !important; }
 
+.contact-address {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-top: -12px !important;
+  line-height: 1.7;
+}
+
+.contact-address span:first-child {
+  color: var(--link);
+  font-weight: 600;
+}
+
 /* ---------- AI presence: selection + remote caret (classy.md trick) ---------- */
 
 .agent-word {

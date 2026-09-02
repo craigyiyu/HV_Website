@@ -19,6 +19,8 @@ hypervelocity-site/
 │   ├── contact.json    # 联系
 │   └── footer.json #   页脚
 ├── .pages.yml      # Pages CMS 配置（定义可编辑字段）
+├── privacy.html    # 隐私政策（公司主体：HyperVelocity Technology Limited）
+├── legal.html      # 公司法律信息页（供 SumSub 等 due diligence 使用）
 ├── tools/export-content.js  # 从 script.js 重新导出 content/*.json 的维护脚本
 ├── logo.png        # 图形标
 ├── wordmark.png    # 字标
@@ -80,8 +82,10 @@ python3 -m http.server 8080
 6. ~~**公司 Logo**~~ ✅ 已收到 logo.png 并接入：header 显示真实 logo、favicon.png（图形标方形裁切）、og.png（1200×630 分享图）
 7. **隐私/服务条款**：已按需求从页脚移除（不再需要）
 8. **OG 社交图**：✅ 已生成 `og.png`（1200×630，深色底 + logo + 标语），meta 已引用
-9. **字体自托管（可选）**：当前用 Google Fonts CDN，正式环境或国内访问建议把 Inter / JetBrains Mono 的 woff2 下载到本地
-10. **SEO**：上线后提交 sitemap 到 Google Search Console；如需覆盖"综合度假村 AI 排班"等关键词可再加独立落地页
+9. **法律信息**：✅ 已加 privacy.html / legal.html（公司：HyperVelocity Technology Limited，注册地址：RM 37, 6/F, Draco Industrial Building, 46 Lai Yip Street, Kwun Tong, Kowloon, HK）+ 首页联系区地址 + 页脚链接。待办：如有香港 CR 注册号可补充到 legal.html
+10. **正式上线 URL**：SumSub due diligence 需要"可访问的官网"。建议开启 GitHub Pages（Settings → Pages → Deploy from branch → main → /root），得到 https://craigyiyu.github.io/HV_Website/（privacy 在 /privacy.html），或由团队部署 hypervelocity.hk
+11. **字体自托管（可选）**：当前用 Google Fonts CDN，正式环境或国内访问建议把 Inter / JetBrains Mono 的 woff2 下载到本地
+12. **SEO**：上线后提交 sitemap 到 Google Search Console；如需覆盖"综合度假村 AI 排班"等关键词可再加独立落地页
 
 ## 定制指南
 

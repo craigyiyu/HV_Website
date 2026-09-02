@@ -1,10 +1,14 @@
 {
   "en": {
     "title": "Contact",
-    "intro": "Tell us about your AI transformation. We reply within one business day."
+    "intro": "Tell us about your AI transformation. We reply within one business day.",
+    "addressLabel": "Registered office",
+    "address": "RM 37, 6/F, Draco Industrial Building, 46 Lai Yip Street, Kwun Tong, Kowloon, Hong Kong"
   },
   "zh": {
     "title": "联系我们",
-    "intro": "告诉我们你的 AI 转型计划，我们会在一个工作日内回复。"
+    "intro": "告诉我们你的 AI 转型计划，我们会在一个工作日内回复。",
+    "addressLabel": "注册地址",
+    "address": "RM 37, 6/F, Draco Industrial Building, 46 Lai Yip Street, Kwun Tong, Kowloon, Hong Kong"
   }
 }
